@@ -14,7 +14,7 @@ console.log(typeof(myArray)); // => object
 const myFunction = function(){
   console.log("myFunction");
 }
-console.log(myFunction); // => [Function]
+console.log(myFunction); // => [Function: myFunction]
 console.log(typeof(myFunction)); // => function
 
 //Pass by Reference

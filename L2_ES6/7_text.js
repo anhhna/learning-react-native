@@ -1,8 +1,8 @@
 
 //Declaration
-const firstName = 'Kobkrit';
-const lastName = 'Viriyayudhakorn';
-const position = 'CEO of iApp Technology';
+const firstName = 'Anh';
+const lastName = 'Huynh';
+const position = 'culy';
 
 //Concatenation String
 const fullName = firstName+' '+lastName;
@@ -10,9 +10,9 @@ const fullName = firstName+' '+lastName;
 //Newline
 const fullNameWithPosition = fullName+'\n'+position;
 
-console.log(fullName); // => Kobkrit Viriyayudhakorn
-console.log(fullNameWithPosition); // => Kobkrit Viriyayudhakorn
-                                   //    CEO of iApp Technology
+console.log(fullName); // => Anh Huynh
+console.log(fullNameWithPosition); // => Anh Huynh
+                                   //    culy
 
 
 //ES6: Template Strings
@@ -21,11 +21,11 @@ const fullNameWithPosition2 = `${fullName2}\n${position}`;
 const fullNameWithPosition3 = `${fullName2}
 ${position}`;
 
-console.log(fullName2); // => Kobkrit Viriyayudhakorn
-console.log(fullNameWithPosition2); // => Kobkrit Viriyayudhakorn
-                                    //    CEO of iApp Technology
-console.log(fullNameWithPosition3); // => Kobkrit Viriyayudhakorn
-                                    //    CEO of iApp Technology
+console.log(fullName2); // => Anh Huynh
+console.log(fullNameWithPosition2); // => Anh Huynh
+                                    //    culy
+console.log(fullNameWithPosition3); // => Anh Huynh
+                                    //    culy
 
 
 //Convert Number to String

@@ -21,6 +21,9 @@ console.log(!!(unknown)); // => false
 console.log(typeof(empty)); // => object
 console.log(typeof(unknown)); // => undefined
 
+console.log(2 == "2"); // => true
+console.log(2 === "2"); // => false
+
 let number3 = number2; //work on its directly value
 number3 = 10;
 console.log(number2, number3); // => 3.33 10

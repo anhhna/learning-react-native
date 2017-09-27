@@ -1,5 +1,6 @@
+//TODO: Uncomment on which component you like to see.
 // Examples
-//import e1 from './1_primitive_types.js';
+import e1 from './1_primitive_types.js';
 //import e2 from './2_complex_types.js';
 //import e3 from './3_reference.js';
 //import e4 from './4_object.js';

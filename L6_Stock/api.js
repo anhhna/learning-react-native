@@ -1,7 +1,7 @@
-let rootURL = 'https://www.google.com/finance/info';
+let rootURL = 'https://finance.google.com/finance';
 
 export default function(code){
-  let url = `${rootURL}?q=${code}`;
+  let url = `${rootURL}?q=${code}&output=json`;
   return fetch(url).then(function(response){
     return response.text();
   }).then(function(text){

@@ -75,7 +75,6 @@ const styles = StyleSheet.create({
   },
   input: {
     padding: 10,
-    flex: 1,
     height: 40,
     borderWidth: 1
   },
